@@ -6,7 +6,8 @@
 // import LiveSearch from "./Live-Search/liveSearch"
 // import Main from "./Hover Cards/MainFile"
 // import Main from "./Hover Cards/HoverCard-Without-CSS/Main" 
-import AppFile from "./Product Preview/product"
+// import AppFile from "./Product Preview/product"
+import LocalStorage from "./Storing-Data-In-LocalStorage/LocalStorage"
 function App() {
   return (
     <>
@@ -18,7 +19,8 @@ function App() {
      {/* <LiveSearch/> */}
      {/* <Main/> */}
      {/* <Main /> */}
-     <AppFile/>
+     {/* <AppFile/> */}
+     <LocalStorage/>
     </>
   )
 }
