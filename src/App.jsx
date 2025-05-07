@@ -5,7 +5,8 @@
 // import ShoppingCart from "./Adding-Product-To-Cart/Product"
 // import LiveSearch from "./Live-Search/liveSearch"
 // import Main from "./Hover Cards/MainFile"
-import Main from "./Hover Cards/HoverCard-Without-CSS/Main" 
+// import Main from "./Hover Cards/HoverCard-Without-CSS/Main" 
+import AppFile from "./Product Preview/product"
 function App() {
   return (
     <>
@@ -16,7 +17,8 @@ function App() {
      {/* <ShoppingCart/> */}
      {/* <LiveSearch/> */}
      {/* <Main/> */}
-     <Main />
+     {/* <Main /> */}
+     <AppFile/>
     </>
   )
 }
