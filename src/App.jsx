@@ -10,7 +10,8 @@
 // import LocalStorage from "./Storing-Data-In-LocalStorage/LocalStorage"
 // import KeyPress from "./KeyPress/keyPress"
 // import Window from "./WindowResize/window"
-import DropDown from "./DropDown Menus/Dropdown"
+// import DropDown from "./DropDown Menus/Dropdown"
+import ToolTip from "./ToolTip.jsx/toolTip"
 function App() {
   return (
     <>
@@ -26,7 +27,8 @@ function App() {
      {/* <LocalStorage/> */}
      {/* <KeyPress/> */}
      {/* <Window/> */}
-     <DropDown/>
+     {/* <DropDown/> */}
+     <ToolTip />
     </>
   )
 }
