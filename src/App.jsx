@@ -2,7 +2,8 @@
 // import Shopping from "./Shopping-Cart/Shopping"
 // import LoginForm from "./Login-Form-Show-And-Hide-Errors/LogniForm"
 // import SocialMedia from "./Liking Post/like"
-import ShoppingCart from "./Adding-Product-To-Cart/Product"
+// import ShoppingCart from "./Adding-Product-To-Cart/Product"
+import LiveSearch from "./Live-Search/liveSearch"
 function App() {
   return (
     <>
@@ -10,7 +11,8 @@ function App() {
      {/* <Shopping/> */}
      {/* <LoginForm/> */}
      {/* <SocialMedia  /> */}
-     <ShoppingCart/>
+     {/* <ShoppingCart/> */}
+     <LiveSearch/>
     </>
   )
 }
