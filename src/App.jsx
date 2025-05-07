@@ -11,7 +11,8 @@
 // import KeyPress from "./KeyPress/keyPress"
 // import Window from "./WindowResize/window"
 // import DropDown from "./DropDown Menus/Dropdown"
-import ToolTip from "./ToolTip.jsx/toolTip"
+// import ToolTip from "./ToolTip.jsx/toolTip"
+import Key_Activation from "./DropDown Menus/Key Activation/key_activation"
 function App() {
   return (
     <>
@@ -28,7 +29,8 @@ function App() {
      {/* <KeyPress/> */}
      {/* <Window/> */}
      {/* <DropDown/> */}
-     <ToolTip />
+     {/* <ToolTip /> */}
+     <Key_Activation/>
     </>
   )
 }
