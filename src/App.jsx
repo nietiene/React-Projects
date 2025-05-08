@@ -13,7 +13,8 @@
 // import DropDown from "./DropDown Menus/Dropdown"
 // import ToolTip from "./ToolTip.jsx/toolTip"
 // import Key_Activation from "./DropDown Menus/Key Activation/key_activation"
-import Dropdown from "./DropDown Menus/Another-Dropdown/dropdown"
+// import Dropdown from "./DropDown Menus/Another-Dropdown/dropdown"
+import WPM from "./WPM Counter/WPM"
 function App() {
   return (
     <>
@@ -32,7 +33,8 @@ function App() {
      {/* <DropDown/> */}
      {/* <ToolTip /> */}
      {/* <Key_Activation/> */}
-     <Dropdown />
+     {/* <Dropdown /> */}
+     <WPM/>
     </>
   )
 }
