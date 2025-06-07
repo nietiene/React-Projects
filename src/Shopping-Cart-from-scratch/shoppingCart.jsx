@@ -62,7 +62,8 @@ const ShoppingCart = () => {
           </div>
           <input type="search"  value={query} 
           onChange={search}
-          className="w-full border border-blue-500 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          placeholder="Type your search...."
+          className="w-full border border-blue-500 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-blue-500 placeholder:text-blue-500"
           />
          {query && filtred.length === 0 ? (<p>No Product Found</p>) : 
          (
