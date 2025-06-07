@@ -88,9 +88,9 @@ const ShoppingCart = () => {
             </div>
           ))} */}
 
-          <h1>Your Cart</h1>
-          {cart.length === 0 && <p>Your Cart is empty</p>}
-          <div>
+          <h1 className="text-blue-500 text-2xl font-semibold mb-4">🧺 Your Cart</h1>
+          {cart.length === 0 && <p className="text-red-500">Your Cart is empty 😰😰</p>}
+          <div className="space-y-4 mb-6">
              {cart.map((item) => (
                 <div key={item.id}>
                  <p>Name: <strong>{item.name}</strong></p>
