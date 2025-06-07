@@ -54,16 +54,19 @@ const ShoppingCart = () => {
     const productToDispay = query ? filtred : products;
 
     return (
-        <div>
-          <h1>Shopping Cart</h1>
+        <div className="max-w-6xl mx-auto p-4">
+          <h1 className="text-3xl font-bold text-center mb-6">🛒Shopping Cart</h1>
+          <div className="">
           <h2>Products In Store</h2>
           <p>Search Products</p>
+          </div>
           <input type="search"  value={query} 
           onChange={search}
           />
          {query && filtred.length === 0 ? (<p>No Product Found</p>) : 
          (
           <div>
+
            {productToDispay.map((product) => (
             <div key={product.id}>
                <p>Name: <strong>{product.name}</strong></p>
