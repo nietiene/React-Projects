@@ -95,8 +95,8 @@ const ShoppingCart = () => {
                 <div key={item.id}
                 className="border p-4 rounded-lg shadow-sm flex justify-between items-center">
                  <p className="font-medium text-blue-500">Name: <strong className="text-green-500 font-medium">{item.name}</strong></p>
-                 <p>Price: <strong>${item.price}</strong></p>
-                 <p>Quantity: <strong>{item.qty}</strong></p>
+                 <p className="font-medium text-blue-500">Price: <strong className="text-green-500 font-medium">${item.price}</strong></p>
+                 <p className="font-medium text-blue-500">Quantity: <strong className="text-green-500 font-medium">{item.qty}</strong></p>
                  <button onClick={() => removeFromCart(item.id)}
                   className="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600">Remove</button>
                 </div>
