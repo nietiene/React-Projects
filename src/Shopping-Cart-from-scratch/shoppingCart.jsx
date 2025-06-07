@@ -92,15 +92,17 @@ const ShoppingCart = () => {
           {cart.length === 0 && <p className="text-red-500">Your Cart is empty 😰😰</p>}
           <div className="space-y-4 mb-6">
              {cart.map((item) => (
-                <div key={item.id}>
-                 <p>Name: <strong>{item.name}</strong></p>
+                <div key={item.id}
+                className="border p-4 rounded-lg shadow-sm flex justify-between items-center">
+                 <p className="font-medium">Name: <strong>{item.name}</strong></p>
                  <p>Price: <strong>${item.price}</strong></p>
                  <p>Quantity: <strong>{item.qty}</strong></p>
-                 <button onClick={() => removeFromCart(item.id)}>Remove</button>
+                 <button onClick={() => removeFromCart(item.id)}
+                  className="bg-red-500 text-white py-1 rounded hover:bg-red-600">Remove</button>
                 </div>
              ))}
           </div>
-          <p>Total Amount: <strong>${totalAmount}</strong></p>
+          <p className="text-2xl font-bold text-blue-500">Total Amount: <strong className="text-2xl font-bold text-green-500">${totalAmount}</strong></p>
         </div>
     )
 }
