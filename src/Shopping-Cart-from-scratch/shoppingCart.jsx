@@ -65,13 +65,13 @@ const ShoppingCart = () => {
           placeholder="Type your search...."
           className="w-full border border-blue-500 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-blue-500 placeholder:text-blue-500"
           />
-         {query && filtred.length === 0 ? (<p>No Product Found</p>) : 
+         {query && filtred.length === 0 ? (<p className="text-red-500 mt-2 ">No Product Found</p>) : 
          (
-          <div>
-
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-8">
            {productToDispay.map((product) => (
-            <div key={product.id}>
-               <p>Name: <strong>{product.name}</strong></p>
+            <div key={product.id}
+             className="border p-3 rounded-lg shadow hover:shadow-lg trainsition duration-300">
+               <p className="">Name: <strong>{product.name}</strong></p>
                <p>Price: <strong>${product.price}</strong></p>
                <button onClick={() => addToCart(product)}>Add To Cart</button>
            </div>
