@@ -71,8 +71,8 @@ const ShoppingCart = () => {
            {productToDispay.map((product) => (
             <div key={product.id}
              className="border p-3 rounded-lg shadow hover:shadow-lg trainsition duration-300">
-               <p className="font-medium">Name: <strong>{product.name}</strong></p>
-               <p className="mb-2">Price: <strong>${product.price}</strong></p>
+               <p className="font-medium text-blue-500">Name: <strong className="text-green-500 font-bold">{product.name}</strong></p>
+               <p className="mb-2 text-blue-500 font-medium">Price: <strong className="text-green-500 font-bold">${product.price}</strong></p>
                <button onClick={() => addToCart(product)}
                   className="bg-blue-500 text-white px-4 py-3 rounded hover:bg-blue-600  trainsition duration-200 hover:shadow-lg">Add To Cart</button>
            </div>
@@ -98,7 +98,7 @@ const ShoppingCart = () => {
                  <p>Price: <strong>${item.price}</strong></p>
                  <p>Quantity: <strong>{item.qty}</strong></p>
                  <button onClick={() => removeFromCart(item.id)}
-                  className="bg-red-500 text-white py-1 rounded hover:bg-red-600">Remove</button>
+                  className="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600">Remove</button>
                 </div>
              ))}
           </div>
