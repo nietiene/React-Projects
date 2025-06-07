@@ -94,7 +94,7 @@ const ShoppingCart = () => {
              {cart.map((item) => (
                 <div key={item.id}
                 className="border p-4 rounded-lg shadow-sm flex justify-between items-center">
-                 <p className="font-medium">Name: <strong>{item.name}</strong></p>
+                 <p className="font-medium text-blue-500">Name: <strong className="text-green-500 font-medium">{item.name}</strong></p>
                  <p>Price: <strong>${item.price}</strong></p>
                  <p>Quantity: <strong>{item.qty}</strong></p>
                  <button onClick={() => removeFromCart(item.id)}
