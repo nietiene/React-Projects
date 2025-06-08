@@ -34,10 +34,11 @@ function Shopping (){
 
     return (
         <div className="bg-green-200 shadow-lg rounded-2xl p-7 min-h-screen">
-            <h2 className="text-green-600 text-2xl">Shopping Cart</h2>
-            <h3>Products</h3>
+            <h2 className="text-green-600 text-2xl text-center font-bold">Shopping Cart</h2>
+            <h3 className="text-center font-medium text-green-500">Products</h3>
             {Products.map((products) => (
-                   <div key={products.id}>
+                   <div key={products.id}
+                   className="flex flex-cols-2 sm:flex-cols-3 md:flex-cols-5">
                       <p>{products.name}</p>
                       <p>${products.price.toFixed(2)}</p>
                       <button onClick={() => addToCart(products)}>
