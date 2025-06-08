@@ -41,7 +41,8 @@ function Shopping (){
                    className="flex flex-cols-2 sm:flex-cols-3 md:flex-cols-5">
                       <p className="font-bold text-green-500">{products.name}</p>
                       <p className="font-bold text-green-600">${products.price.toFixed(2)}</p>
-                      <button onClick={() => addToCart(products)}>
+                      <button onClick={() => addToCart(products)}
+                        className="py-2 px-4 bg-green-500">
                         Add To Cart
                       </button>
                     </div>
