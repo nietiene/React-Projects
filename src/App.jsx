@@ -1,5 +1,5 @@
 // import Main from "./Ecomerce-Frontend/Main"
-// import Shopping from "./Shopping-Cart/Shopping"
+import Shopping from "./Shopping-Cart/Shopping"
 // import LoginForm from "./Login-Form-Show-And-Hide-Errors/LogniForm"
 // import SocialMedia from "./Liking Post/like"
 // import ShoppingCart from "./Adding-Product-To-Cart/Product"
@@ -15,15 +15,15 @@
 // import Key_Activation from "./DropDown Menus/Key Activation/key_activation"
 // import Dropdown from "./DropDown Menus/Another-Dropdown/dropdown"
 // import WPM from "./WPM Counter/WPM"
-import ShoppingCart from "./Shopping-Cart-from-scratch/shoppingCart"
+// import ShoppingCart from "./Shopping-Cart-from-scratch/shoppingCart"
 function App() {
   return (
     <>
      {/* <Main/> */}
-     {/* <Shopping/> */}
+     <Shopping/>
      {/* <LoginForm/> */}
      {/* <SocialMedia  /> */}
-     <ShoppingCart/>
+     {/* <ShoppingCart/> */}
      {/* <LiveSearch/> */}
      {/* <Main/> */}
      {/* <Main /> */}
