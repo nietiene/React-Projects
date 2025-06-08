@@ -40,7 +40,7 @@ function Shopping (){
                    <div key={products.id}
                    className="flex flex-cols-2 sm:flex-cols-3 md:flex-cols-5">
                       <p className="font-bold text-green-500">{products.name}</p>
-                      <p>${products.price.toFixed(2)}</p>
+                      <p className="font-bold text-green-600">${products.price.toFixed(2)}</p>
                       <button onClick={() => addToCart(products)}>
                         Add To Cart
                       </button>
