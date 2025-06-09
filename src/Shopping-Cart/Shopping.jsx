@@ -53,7 +53,8 @@ function Shopping (){
             {cart.length === 0 && <p className="text-gray-600">Cart is empty</p>}
             <ul className="space-y-6">
                 {cart.map(item => 
-                    <li key={item.id}>
+                    <li key={item.id}
+                    className="flex justify-center items-center">
                         {item.name} X {item.qty} - ${item.price * item.qty}
                         <button onClick={() => removeFromCart(item.id)}>
                             Remove
