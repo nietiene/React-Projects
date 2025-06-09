@@ -50,8 +50,8 @@ function Shopping (){
             ))}
     </div>
             <h3 className="mt-10">Cart</h3>
-            {cart.length === 0 && <p>Cart is empty</p>}
-            <ul>
+            {cart.length === 0 && <p className="text-gray-600">Cart is empty</p>}
+            <ul className="space-y-6">
                 {cart.map(item => 
                     <li key={item.id}>
                         {item.name} X {item.qty} - ${item.price * item.qty}
