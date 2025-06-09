@@ -38,7 +38,7 @@ function Shopping (){
             <h3 className="text-xl font-semibold mb-6 text-green-600">Products</h3>
             {Products.map((products) => (
                    <div key={products.id}
-                   className="flex flex-cols-2 sm:flex-cols-3 md:flex-cols-5">
+                   className="grid grid-cols-1 sm:grid-cols-2 md:flex-cols-3 gap-6">
                       <p className="font-bold text-green-500">{products.name}</p>
                       <p className="font-bold text-green-600">${products.price.toFixed(2)}</p>
                       <button onClick={() => addToCart(products)}
