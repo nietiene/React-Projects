@@ -43,7 +43,7 @@ function Shopping (){
                       <p className="font-semibold text-lg">{products.name}</p>
                       <p className="mb-4 text-green-600">${products.price.toFixed(2)}</p>
                       <button onClick={() => addToCart(products)}
-                        className="py-2 px-4 bg-green-500">
+                        className="mbt-auto py-1 px-4 bg-green-500 text-white rounded hover:bg-green-600 trainsition">
                         Add To Cart
                       </button>
                     </div>
