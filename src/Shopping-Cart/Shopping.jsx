@@ -40,8 +40,8 @@ function Shopping (){
             {Products.map((products) => (
                    <div key={products.id}
                    className="p-4 bg-white rounded-lg shadow-md flex flex-col items-center">
-                      <p className="font-bold text-green-500">{products.name}</p>
-                      <p className="font-bold text-green-600">${products.price.toFixed(2)}</p>
+                      <p className="font-semibold text-lg">{products.name}</p>
+                      <p className="mb-4 text-green-600">${products.price.toFixed(2)}</p>
                       <button onClick={() => addToCart(products)}
                         className="py-2 px-4 bg-green-500">
                         Add To Cart
