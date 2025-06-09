@@ -63,7 +63,7 @@ function Shopping (){
                     </li>
                 )}
             </ul>
-          <h4>Total: ${total.toFixed(2)}</h4>
+          <h4 className="text-2xl text-green-500 font-extrabold ">Total: ${total.toFixed(2)}</h4>
         </div>
     )
 };
