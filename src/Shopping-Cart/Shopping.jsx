@@ -54,10 +54,10 @@ function Shopping (){
             <ul className="space-y-6">
                 {cart.map(item => 
                     <li key={item.id}
-                    className="flex justify-center items-center p-4 rounded shadow">
+                    className="flex justify-between items-center p-4 rounded shadow">
                         {item.name} X {item.qty} - ${item.price * item.qty}
                         <button onClick={() => removeFromCart(item.id)}
-                            className="bg-red-500 text-white px-3 py-2 rounded hover:bg-red-600 transition">
+                            className="bg-red-500 text-white px-3 py-2 rounded hover:bg-red-600 transition ">
                             Remove
                         </button>
                     </li>
