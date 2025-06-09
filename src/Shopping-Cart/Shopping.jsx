@@ -43,13 +43,13 @@ function Shopping (){
                       <p className="font-semibold text-lg">{products.name}</p>
                       <p className="mb-4 text-green-600">${products.price.toFixed(2)}</p>
                       <button onClick={() => addToCart(products)}
-                        className="mbt-auto py-1 px-4 bg-green-500 text-white rounded hover:bg-green-600 trainsition">
+                        className="mbt-auto py-2 px-4 bg-green-500 text-white rounded hover:bg-green-600 trainsition">
                         Add To Cart
                       </button>
                     </div>
             ))}
     </div>
-            <h3>Cart</h3>
+            <h3 className="mt-10">Cart</h3>
             {cart.length === 0 && <p>Cart is empty</p>}
             <ul>
                 {cart.map(item => 
