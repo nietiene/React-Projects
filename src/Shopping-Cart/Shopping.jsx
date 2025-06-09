@@ -33,7 +33,7 @@ function Shopping (){
     const total = cart.reduce((sum, item) => sum + item.price * item.qty, 0);
 
     return (
-        <div className="bg-green-200 shadow-lg rounded-2xl p-7 min-h-screen">
+        <div className="bg-green-200 shadow-xl rounded-2xl p-8 min-h-screen text-green-500">
             <h2 className="text-green-600 text-2xl text-center font-bold">Shopping Cart</h2>
             <h3 className="text-center font-medium text-green-500">Products</h3>
             {Products.map((products) => (
