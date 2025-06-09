@@ -36,9 +36,10 @@ function Shopping (){
         <div className="bg-green-200 shadow-xl rounded-2xl p-8 min-h-screen text-green-500">
             <h2 className="text-3xl text-center font-extrabold mb-6">Shopping Cart</h2>
             <h3 className="text-xl font-semibold mb-6 text-green-600">Products</h3>
+            <div  className="grid grid-cols-1 sm:grid-cols-2 md:flex-cols-3 gap-6">
             {Products.map((products) => (
                    <div key={products.id}
-                   className="grid grid-cols-1 sm:grid-cols-2 md:flex-cols-3 gap-6">
+                   className="">
                       <p className="font-bold text-green-500">{products.name}</p>
                       <p className="font-bold text-green-600">${products.price.toFixed(2)}</p>
                       <button onClick={() => addToCart(products)}
@@ -47,7 +48,7 @@ function Shopping (){
                       </button>
                     </div>
             ))}
-
+    </div>
             <h3>Cart</h3>
             {cart.length === 0 && <p>Cart is empty</p>}
             <ul>
