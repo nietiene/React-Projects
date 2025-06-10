@@ -46,8 +46,10 @@ const ShoppingCart = () => {
                     Add To Cart
                 </button>
             </div>
+
         ))}
-        <h2>Your Cart</h2>
+<hr />
+        <h2 className="mt-7 text-center">Your Cart</h2>
         {cart.length === 0 ? (
             <p>Your Cart is empty</p>
         ): (
