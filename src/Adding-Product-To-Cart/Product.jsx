@@ -34,12 +34,12 @@ const ShoppingCart = () => {
    };
 
    return (
-    <div className="bg-blue-200 min-h-screen">
+    <div className="bg-blue-200 min-h-screen p-6">
         <h1 className="text-center font-extrabold text-2xl text-blue-500">Shopping Cart</h1>
         <h2 className="font-extrabold text-blue-500 text-xl text-center underline">Products</h2>
         {products.map((products) => (
             <div key={products.id} 
-            className="m-5 grid sm:grid-cols-1 grid-cols md:grid-cols-2 md:grid-cols-3 p-2 bg-blue-300 shadow-lg ">
+            className="grid gap-4  md:grid-cols-3 sm:grid-cols-2 p-2 bg-blue-300 shadow-lg ">
                 <span className="text-xl p-2 text-blue-600">{products.name} - ${products.price.toFixed(2)}</span>
                 <button onClick={() => addToCart(products)}
                     className="bg-blue-500 w-[40%] ms-[160%] rounded-lg shadow-lg text-white hover:bg-blue-600">
