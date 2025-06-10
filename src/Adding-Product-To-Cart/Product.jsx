@@ -39,7 +39,7 @@ const ShoppingCart = () => {
         <h2 className="font-extrabold text-blue-500 text-xl text-center underline">Products</h2>
         {products.map((products) => (
             <div key={products.id} 
-            className="grid gap-4  md:grid-cols-3 sm:grid-cols-2 p-2 bg-blue-300 shadow-lg ">
+            className="grid gap-4  md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mb-8">
                 <span className="text-xl p-2 text-blue-600">{products.name} - ${products.price.toFixed(2)}</span>
                 <button onClick={() => addToCart(products)}
                     className="bg-blue-500 w-[40%] ms-[160%] rounded-lg shadow-lg text-white hover:bg-blue-600">
