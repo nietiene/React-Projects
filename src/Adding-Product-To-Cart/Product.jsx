@@ -42,7 +42,7 @@ const ShoppingCart = () => {
             className="grid sm:grid-cols-1 grid-cols md:grid-cols-2 md:grid-cols-3 p-2 bg-blue-300 shadow-lg ">
                 <span className="text-xl p-2 text-blue-600">{products.name} - ${products.price.toFixed(2)}</span>
                 <button onClick={() => addToCart(products)}
-                    className="bg-blue-500 w-[40%]">
+                    className="bg-blue-500 w-[40%] ms-[55%] rounded-lg shadow-lg text-white">
                     Add To Cart
                 </button>
             </div>
