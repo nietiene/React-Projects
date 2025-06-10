@@ -36,9 +36,10 @@ const ShoppingCart = () => {
    return (
     <div className="bg-blue-200 min-h-screen">
         <h1 className="text-center font-extrabold text-2xl text-blue-500">Shopping Cart</h1>
-        <h2 className="font-extrabold text-blue-500 text-xl text-center">Products</h2>
+        <h2 className="font-extrabold text-blue-500 text-xl text-center underline">Products</h2>
         {products.map((products) => (
-            <div key={products.id}>
+            <div key={products.id} 
+            className="grid ">
                 <span>{products.name} - ${products.price.toFixed(2)}</span>
                 <button onClick={() => addToCart(products)}>
                     Add To Cart
