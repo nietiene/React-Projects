@@ -34,9 +34,9 @@ const ShoppingCart = () => {
    };
 
    return (
-    <div className="bg-blue-200 min-h-screen flex">
-        <h1 className="text-center font-extrabold">Shopping Cart</h1>
-        <h2>Products</h2>
+    <div className="bg-blue-200 min-h-screen">
+        <h1 className="text-center font-extrabold text-2xl text-blue-500">Shopping Cart</h1>
+        <h2 className="font-extrabold text-blue-500 text-xl text-center">Products</h2>
         {products.map((products) => (
             <div key={products.id}>
                 <span>{products.name} - ${products.price.toFixed(2)}</span>
