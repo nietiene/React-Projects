@@ -34,8 +34,8 @@ const ShoppingCart = () => {
    };
 
    return (
-    <div>
-        <h1>Shopping Cart</h1>
+    <div className="bg-blue-200 min-h-screen flex">
+        <h1 className="text-center font-extrabold">Shopping Cart</h1>
         <h2>Products</h2>
         {products.map((products) => (
             <div key={products.id}>
