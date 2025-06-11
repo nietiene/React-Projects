@@ -48,12 +48,12 @@ const ShoppingCart = () => {
             </div>
 
         ))}
-<hr className="my-6 border-blue-500"/>
-        <h2 className="mt-7 text-center">Your Cart</h2>
+<hr className="my-6 border-blue-500" />
+        <h2 className="mt-7 text-center bg-blue-500 text-white">Your Cart</h2>
         {cart.length === 0 ? (
-            <p>Your Cart is empty</p>
+            <p className="text-gray-500">Your Cart is empty</p>
         ): (
-            <ul>
+            <ul className="grid gap-4 grid-cold-2">
                 {cart.map((item) => (
                     <li key={item.id}>
                         {item.name} x {item.quantity} - ${item.price * item.quantity}
