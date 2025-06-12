@@ -53,11 +53,11 @@ const ShoppingCart = () => {
         {cart.length === 0 ? (
             <p className="text-gray-500">Your Cart is empty</p>
         ): (
-            <ul className="grid gap-4 grid-cold-2 mt-3 shadow-md">
+            <ul className="grid gap-4 grid-cold-2 mt-3 shadow-md font-bold">
                 {cart.map((item) => (
                     <li key={item.id} 
                     className="flex justify-between">
-                        {item.name} x <span>{item.quantity}</span> - ${item.price * item.quantity}
+                       <span>{item.name}</span> <span>{item.quantity}</span> ${item.price * item.quantity}
                         <button onClick={() => RemoveProduct(item.id)}>Remove</button>
                     </li>
                 ))}
