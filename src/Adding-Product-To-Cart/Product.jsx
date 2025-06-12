@@ -65,7 +65,7 @@ const ShoppingCart = () => {
             </ul>
         )
         }
-  <h3>Total: ${getTotalPrice()}</h3>
+  <h3 className="mt-6">Total: ${getTotalPrice()}</h3>
     </div>
    )
 }
