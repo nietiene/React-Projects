@@ -24,10 +24,11 @@ const DropDown = () => {
         <div className="min-h-screen bg-gray-400 p-4">
             <h1 className="font-medium text-gray- underline text-gray-800">Dropdown Menu Example</h1>
             <button onClick={toggleDropdown}
-            className=" border border-gray-700 p-2 rounded-lg mt-4 hover:bg-gray-500">Toggle Dropdown</button>
+            className=" border border-gray-700 p-2 rounded-lg mt-4 hover:bg-gray-500 transition duration-300 shadow-lg">Toggle Dropdown</button>
 
             {isOpen && (
-                <div ref={dropDownRef}>
+                <div ref={dropDownRef}
+                className="bg-white mt-4 p-3 w-[10%] text-center">
                     <ul>
                         <li>Option 1</li>
                         <li>Option 2</li>
