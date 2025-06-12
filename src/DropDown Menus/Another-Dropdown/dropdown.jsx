@@ -40,12 +40,12 @@ const Dropdown = () => {
 
     return (
         <div className=" p-5 bg-lime-500 min-h-screen">
-            <h1 className="text-white font-bold underline text-xl">Keyboard Activated Dropdown with Navigator</h1>
+            <h1 className="">Keyboard Activated Dropdown with Navigator</h1>
             <div ref={dropDownRef} tabIndex={0} onKeyDown={handleKeyPressed}
+            style={{border: '1px solid black', padding:'10px'}}
               className="mt-4"
             >
-                <button onClick={toggleDropdown}
-                className=" border border-lime-600 p-2 rounded hover:bg-lime-400 transiton duration-300">
+                <button onClick={toggleDropdown}>
                     Toggle Dropdown
                 </button>
                 {isDropdownOpen && (

@@ -21,8 +21,8 @@ const DropDown = () => {
     }, []);
 
     return (
-        //className=" p-5 bg-lime-500 min-h-screen">  body
-        // div:    className="mt-4"
+        //>  body
+        // div:  
         //  className=" border border-lime-600 p-2 rounded hover:bg-lime-400 transiton duration-300" button
         <div className="min-h-screen bg-gray-400 p-4">
             <h1 className="font-medium text-gray- underline text-gray-800">Dropdown Menu Example</h1>
