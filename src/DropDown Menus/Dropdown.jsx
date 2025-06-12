@@ -21,8 +21,8 @@ const DropDown = () => {
     }, []);
 
     return (
-        <div className="min-h-screen bg-gray-400">
-            <h1 className="text-medium ms-4">Dropdown Menu Example</h1>
+        <div className="min-h-screen bg-gray-400 p-4">
+            <h1 className="font-medium text-gray-800 ">Dropdown Menu Example</h1>
             <button onClick={toggleDropdown}>Toggle Dropdown</button>
 
             {isOpen && (
