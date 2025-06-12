@@ -21,9 +21,9 @@ const Key_Activation = () => {
              <button onClick={toggleDropDown} className="border border-yellow-900 p-2 mt-5 hover:bg-yellow-600">Toggle Dropdown</button>   
              {isDropDonwOpen && (
                 <ul className="font-bold bg-yellow-600 mt-5 w-[10%] text-center">
-                    <li className="hover:text-gray-600 hover:underline transition duration-200">Option 1</li>
-                    <li>Option 2</li>
-                    <li>Option 3</li>
+                    <li className="hover:text-gray-600 hover:underline transition duration-200"><a href="#">Option 1</a></li>
+                    <li className="hover:text-gray-600 hover:underline transition duration-200"><a href="#">Option 2</a></li>
+                    <li className="hover:text-gray-600 hover:underline transition duration-200"><a href="#">Option 3</a></li>
                 </ul>
              )}
             </div>
