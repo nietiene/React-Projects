@@ -23,7 +23,7 @@ function App() {
      {/* <Shopping/> */}
      {/* <LoginForm/> */}
      {/* <SocialMedia  /> */}
-     <ShoppingCart/>
+     {/* <ShoppingCart/> */}
      {/* <LiveSearch/> */}
      {/* <Main/> */}
      {/* <Main /> */}
@@ -31,7 +31,7 @@ function App() {
      {/* <LocalStorage/> */}
      {/* <KeyPress/> */}
      {/* <Window/> */}
-     {/* <DropDown/> */}
+     <DropDown/>
      {/* <ToolTip /> */}
      {/* <Key_Activation/> */}
      {/* <Dropdown /> */}
