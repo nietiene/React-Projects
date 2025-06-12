@@ -18,7 +18,7 @@ const Key_Activation = () => {
             <div tabIndex={0}
              onKeyDown={handleKeyPress}
              >
-             <button onClick={toggleDropDown}>Toggle Dropdown</button>   
+             <button onClick={toggleDropDown} className="border border-yellow-900 p-2 mt-5 hover:bg-yellow-600">Toggle Dropdown</button>   
              {isDropDonwOpen && (
                 <ul>
                     <li>Option 1</li>
