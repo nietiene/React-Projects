@@ -23,7 +23,8 @@ const DropDown = () => {
     return (
         <div className="min-h-screen bg-gray-400 p-4">
             <h1 className="font-medium text-gray- underline text-gray-800">Dropdown Menu Example</h1>
-            <button onClick={toggleDropdown}>Toggle Dropdown</button>
+            <button onClick={toggleDropdown}
+            className=" border border-gray-700 ">Toggle Dropdown</button>
 
             {isOpen && (
                 <div ref={dropDownRef}>
