@@ -12,8 +12,8 @@
 // import Window from "./WindowResize/window"
 // import DropDown from "./DropDown Menus/Dropdown"
 // import ToolTip from "./ToolTip.jsx/toolTip"
-import Key_Activation from "./DropDown Menus/Key Activation/key_activation"
-// import Dropdown from "./DropDown Menus/Another-Dropdown/dropdown"
+// import Key_Activation from "./DropDown Menus/Key Activation/key_activation"
+import Dropdown from "./DropDown Menus/Another-Dropdown/dropdown"
 // import WPM from "./WPM Counter/WPM"
 // import ShoppingCart from "./Shopping-Cart-from-scratch/shoppingCart"
 function App() {
@@ -33,8 +33,8 @@ function App() {
      {/* <Window/> */}
      {/* <DropDown/> */}
      {/* <ToolTip /> */}
-     <Key_Activation/>
-     {/* <Dropdown /> */}
+     {/* <Key_Activation/> */}
+     <Dropdown />
      {/* <WPM/> */}
      {/* <ShoppingCart/> */}
     </>

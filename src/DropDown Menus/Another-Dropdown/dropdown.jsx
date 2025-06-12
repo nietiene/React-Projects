@@ -39,7 +39,7 @@ const Dropdown = () => {
     };
 
     return (
-        <div>
+        <div className="bg-orange-500 min-h-screen">
             <h1>Keyboard Activated Dropdown with Navigator</h1>
             <div ref={dropDownRef} tabIndex={0} onKeyDown={handleKeyPressed}
             style={{border: '1px solid black', padding:'10px'}}
