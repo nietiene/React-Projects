@@ -45,7 +45,7 @@ const Dropdown = () => {
               className="mt-4"
             >
                 <button onClick={toggleDropdown}
-                className=" border border-lime-400 ">
+                className=" border border-lime-600 p-2 rounded hover:bg-lime-400 transiton duration-300">
                     Toggle Dropdown
                 </button>
                 {isDropdownOpen && (
