@@ -13,8 +13,8 @@ const Key_Activation = () => {
     };
 
     return (
-        <div>
-            <h1>Key Activated DropDown Example</h1>
+        <div className="bg-yellow-500 min-h-screen p-4">
+            <h1 className="text-yellow-900 underline font-bold ">Key Activated DropDown Example</h1>
             <div tabIndex={0}
              onKeyDown={handleKeyPress}
              >
