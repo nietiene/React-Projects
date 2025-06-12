@@ -29,7 +29,7 @@ const DropDown = () => {
             {isOpen && (
                 <div ref={dropDownRef}
                 className="bg-white mt-4 p-3 w-[10%] text-center shadow-2xl rounded-lg">
-                    <ul>
+                    <ul className="font-medium text-gray-500">
                         <li>Option 1</li>
                         <li>Option 2</li>
                         <li>Option 3</li>
