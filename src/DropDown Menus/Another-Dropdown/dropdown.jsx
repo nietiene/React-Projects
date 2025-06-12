@@ -39,10 +39,10 @@ const Dropdown = () => {
     };
 
     return (
-        <div className="bg-lime-500 min-h-screen">
-            <h1>Keyboard Activated Dropdown with Navigator</h1>
+        <div className=" p-5 bg-lime-500 min-h-screen">
+            <h1 className="text-white font-bold underline text-xl">Keyboard Activated Dropdown with Navigator</h1>
             <div ref={dropDownRef} tabIndex={0} onKeyDown={handleKeyPressed}
-            style={{border: '1px solid black', padding:'10px'}}
+            
             >
                 <button onClick={toggleDropdown}>
                     Toggle Dropdown
