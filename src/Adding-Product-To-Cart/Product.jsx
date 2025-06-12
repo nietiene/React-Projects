@@ -57,7 +57,7 @@ const ShoppingCart = () => {
                 {cart.map((item) => (
                     <li key={item.id} 
                     className="flex justify-between border border-blue-500 p-3 hover:bg-blue-500 hover:text-white transition duration">
-                       <span className="text-blue-500">{item.name}</span> <span className="text-blue-500">{item.quantity}</span> <span>${item.price * item.quantity}</span>
+                       <span className="text-blue-300">{item.name}</span> <span className="text-blue-300">{item.quantity}</span> <span className="text-blue-300"> ${item.price * item.quantity}</span>
                         <button onClick={() => RemoveProduct(item.id)}>Remove</button>
                     </li>
                 ))}
