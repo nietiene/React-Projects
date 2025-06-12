@@ -30,10 +30,10 @@ const DropDown = () => {
                 <div ref={dropDownRef}
                 className="bg-white mt-4 p-3 w-[10%] text-center shadow-2xl rounded-lg">
                     <ul className="font-medium text-gray-500">
-                        <li className="hover:underline transiton duration-200"><a href="#">Option 1</a></li> 
-                        <li><a href="#">Option 2</a></li>
-                        <li><a href="#">Option 3</a></li>
-                        <li><a href="#">Option 4</a></li>
+                        <li className="hover:underline transition duration-300"><a href="#">Option 1</a></li> 
+                        <li className="hover:underline transition duration-300"><a href="#">Option 2</a></li>
+                        <li className="hover:underline transition duration-300"><a href="#">Option 3</a></li>
+                        <li className="hover:underline transition duration-300"><a href="#">Option 4</a></li>
                     </ul>
                 </div>
             )}
