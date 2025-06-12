@@ -56,8 +56,8 @@ const ShoppingCart = () => {
             <ul className="grid gap-4 grid-cold-2 mt-3 shadow-md">
                 {cart.map((item) => (
                     <li key={item.id} 
-                    className="flex">
-                        {item.name} x {item.quantity} - ${item.price * item.quantity}
+                    className="flex justify-between">
+                        {item.name} x <span>{item.quantity}</span> - ${item.price * item.quantity}
                         <button onClick={() => RemoveProduct(item.id)}>Remove</button>
                     </li>
                 ))}
