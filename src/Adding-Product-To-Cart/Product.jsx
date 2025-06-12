@@ -49,11 +49,11 @@ const ShoppingCart = () => {
 
         ))}
 <hr className="my-6 border-blue-500" />
-        <h2 className="mt-7 text-center bg-blue-500 text-white">Your Cart</h2>
+        <h2 className="mt-7 text-center bg-blue-500 text-white shadow-lg">Your Cart</h2>
         {cart.length === 0 ? (
             <p className="text-gray-500">Your Cart is empty</p>
         ): (
-            <ul className="grid gap-4 grid-cold-2">
+            <ul className="grid gap-4 grid-cold-2 mt-3 shadow-lg">
                 {cart.map((item) => (
                     <li key={item.id}>
                         {item.name} x {item.quantity} - ${item.price * item.quantity}
