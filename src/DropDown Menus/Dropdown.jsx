@@ -23,7 +23,7 @@ const DropDown = () => {
     return (
         //>  body
         // div:  
-        //  className=" border border-lime-600 p-2 rounded hover:bg-lime-400 transiton duration-300" button
+        //  button
         <div className="min-h-screen bg-gray-400 p-4">
             <h1 className="font-medium text-gray- underline text-gray-800">Dropdown Menu Example</h1>
             <button onClick={toggleDropdown}
