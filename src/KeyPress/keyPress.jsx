@@ -17,7 +17,7 @@ const KeyPress = () => {
    return (
     <div className="bg-blue-300 min-h-screen ">
         <h2 className="text-white text-2xl font-bold underline text-center">Reacting Key Presses</h2>
-        <p className="text-blue-500 text-xl text-center">Last key pressed: <span>{keyPressed}</span></p>
+        <p className="text-blue-500 text-xl text-center">Last key pressed: <span className="font-bold">{keyPressed}</span></p>
     </div>
    )
     }
