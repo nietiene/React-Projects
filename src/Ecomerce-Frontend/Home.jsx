@@ -14,7 +14,7 @@ export default function Home(){
                   <h2 className="text-white font-bold">{product.name}</h2>
                   <p className="text-green-400 text-xl font-bold">${product.price}</p>
                   <button onClick={() => AddToCart(product)}
-                    className="bg-blue-500 p-2 ">
+                    className="bg-blue-500 p-2 text-white font-bold rounded mt-2 hover:bg-blue-600 transition duration-200">
                     Add To Cart
                   </button>
                 </div>
