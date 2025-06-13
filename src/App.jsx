@@ -1,4 +1,4 @@
-import Main from "./Ecomerce-Frontend/Main"
+// import Main from "./Ecomerce-Frontend/Main"
 // import Shopping from "./Shopping-Cart/Shopping"
 // import LoginForm from "./Login-Form-Show-And-Hide-Errors/LogniForm"
 // import SocialMedia from "./Liking Post/like"
@@ -19,7 +19,7 @@ import Main from "./Ecomerce-Frontend/Main"
 function App() {
   return (
     <>
-     <Main/>
+     {/* <Main/> */}
      {/* <Shopping/> */}
      {/* <LoginForm/> */}
      {/* <SocialMedia  /> */}
