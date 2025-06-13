@@ -4,11 +4,11 @@
 // import SocialMedia from "./Liking Post/like"
 // import ShoppingCart from "./Adding-Product-To-Cart/Product"
 // import LiveSearch from "./Live-Search/liveSearch"
-import Main from "./Hover Cards/MainFile"
+// import Main from "./Hover Cards/MainFile"
 // import Main from "./Hover Cards/HoverCard-Without-CSS/Main" 
 // import AppFile from "./Product Preview/product"
 // import LocalStorage from "./Storing-Data-In-LocalStorage/LocalStorage"
-// import KeyPress from "./KeyPress/keyPress"
+import KeyPress from "./KeyPress/keyPress"
 // import Window from "./WindowResize/window"
 // import DropDown from "./DropDown Menus/Dropdown"
 // import ToolTip from "./ToolTip.jsx/toolTip"
@@ -19,7 +19,7 @@ import Main from "./Hover Cards/MainFile"
 function App() {
   return (
     <>
-     <Main/>
+     {/* <Main/> */}
      {/* <Shopping/> */}
      {/* <LoginForm/> */}
      {/* <SocialMedia  /> */}
@@ -29,7 +29,7 @@ function App() {
      {/* <Main /> */}
      {/* <AppFile/> */}
      {/* <LocalStorage/> */}
-     {/* <KeyPress/> */}
+     <KeyPress/>
      {/* <Window/> */}
      {/* <DropDown/> */}
      {/* <ToolTip /> */}
