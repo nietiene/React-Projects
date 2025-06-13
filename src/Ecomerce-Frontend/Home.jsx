@@ -13,7 +13,8 @@ export default function Home(){
                 className="ms-3">
                   <h2 className="text-white font-bold">{product.name}</h2>
                   <p className="text-green-400 text-xl font-bold">${product.price}</p>
-                  <button onClick={() => AddToCart(product)}>
+                  <button onClick={() => AddToCart(product)}
+                    className="bg-blue-500 p-2 ">
                     Add To Cart
                   </button>
                 </div>
