@@ -7,7 +7,7 @@ export default function Home(){
     const {AddToCart} = useCart();
     return (
         <div className="bg-blue-400 min-h-screen">
-            <h1>Products</h1>
+            <h1 className="text-center font-bold text-2xl text-white">Products</h1>
             {Products.map((product) => (
                 <div key={product.id}>
                   <h2>{product.name}</h2>
