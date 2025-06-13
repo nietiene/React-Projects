@@ -10,9 +10,9 @@ export default function Home(){
             <h1 className="ms-3 font-bold text-2xl text-white">Products</h1>
             {Products.map((product) => (
                 <div key={product.id}
-                className="">
-                  <h2>{product.name}</h2>
-                  <p>{product.price}</p>
+                className="ms-3">
+                  <h2 className="">{product.name}</h2>
+                  <p>${product.price}</p>
                   <button onClick={() => AddToCart(product)}>
                     Add To Cart
                   </button>
