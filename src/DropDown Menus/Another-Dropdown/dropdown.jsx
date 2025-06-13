@@ -55,6 +55,7 @@ const Dropdown = () => {
                             <li key={index}
                             style={{fontWeight: index === selectedOption ? 'bold' : 'normal'}}
                             onClick={() => handleOptionClick(index)}
+                            className="text-white font-medium"
                             >
                                  {options}
                             </li>
