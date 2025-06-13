@@ -15,8 +15,8 @@ const KeyPress = () => {
      }, []) // Array runs once
 
    return (
-    <div>
-        <h2>Reacting Key Presses</h2>
+    <div className="bg-blue-500 min-h-screen ">
+        <h2 className="text-white text-2xl font-bold">Reacting Key Presses</h2>
         <p>Last key pressed: {keyPressed}</p>
     </div>
    )
