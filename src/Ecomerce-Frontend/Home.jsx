@@ -12,7 +12,7 @@ export default function Home(){
                 <div key={product.id}
                 className="ms-3">
                   <h2 className="text-white font-bold">{product.name}</h2>
-                  <p>${product.price}</p>
+                  <p className="text-green-400 text-xl font-bold">${product.price}</p>
                   <button onClick={() => AddToCart(product)}>
                     Add To Cart
                   </button>
