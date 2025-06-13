@@ -5,7 +5,7 @@
 // import ShoppingCart from "./Adding-Product-To-Cart/Product"
 // import LiveSearch from "./Live-Search/liveSearch"
 // import Main from "./Hover Cards/MainFile"
-// import Main from "./Hover Cards/HoverCard-Without-CSS/Main" 
+import Main from "./Hover Cards/HoverCard-Without-CSS/Main" 
 // import AppFile from "./Product Preview/product"
 // import LocalStorage from "./Storing-Data-In-LocalStorage/LocalStorage"
 // import KeyPress from "./KeyPress/keyPress"
@@ -13,7 +13,7 @@
 // import DropDown from "./DropDown Menus/Dropdown"
 // import ToolTip from "./ToolTip.jsx/toolTip"
 // import Key_Activation from "./DropDown Menus/Key Activation/key_activation"
-import Dropdown from "./DropDown Menus/Another-Dropdown/dropdown"
+// import Dropdown from "./DropDown Menus/Another-Dropdown/dropdown"
 // import WPM from "./WPM Counter/WPM"
 // import ShoppingCart from "./Shopping-Cart-from-scratch/shoppingCart"
 function App() {
@@ -26,7 +26,7 @@ function App() {
      {/* <ShoppingCart/> */}
      {/* <LiveSearch/> */}
      {/* <Main/> */}
-     {/* <Main /> */}
+     <Main />
      {/* <AppFile/> */}
      {/* <LocalStorage/> */}
      {/* <KeyPress/> */}
@@ -34,7 +34,7 @@ function App() {
      {/* <DropDown/> */}
      {/* <ToolTip /> */}
      {/* <Key_Activation/> */}
-     <Dropdown />
+     {/* <Dropdown /> */}
      {/* <WPM/> */}
      {/* <ShoppingCart/> */}
     </>
