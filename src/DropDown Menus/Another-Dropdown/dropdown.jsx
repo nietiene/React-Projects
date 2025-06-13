@@ -50,7 +50,7 @@ const Dropdown = () => {
                     Toggle Dropdown
                 </button>
                 {isDropdownOpen && (
-                    <ul>
+                    <ul className="bg-lime-400 mt-5">
                         {options.map((options, index) => (
                             <li key={index}
                             style={{fontWeight: index === selectedOption ? 'bold' : 'normal'}}
